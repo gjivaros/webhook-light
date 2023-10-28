@@ -1,0 +1,65 @@
+{
+  "[typescript]": {
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+   },
+   "editor.formatOnSave": true,
+   "editor.formatOnType": true
+  },
+  "[javascript]": {
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+   },
+   "editor.formatOnSave": true,
+   "editor.formatOnType": true
+  },
+  "[typescriptreact]": {
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+   },
+   "editor.formatOnSave": true,
+   "editor.formatOnType": true
+  },
+  "[javascriptreact]": {
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+   },
+   "editor.formatOnSave": true,
+   "editor.formatOnType": true
+  },
+  "[html]": {
+   "editor.defaultFormatter": "vscode.html-language-features",
+   "editor.tabSize": 2,
+   "editor.detectIndentation": false,
+   "editor.formatOnSave": false
+  },
+  "[ejs]": {
+   "editor.defaultFormatter": "vscode.html-language-features",
+   "editor.tabSize": 2,
+   "editor.detectIndentation": false,
+   "editor.formatOnSave": false
+  },
+  "[sql]": {
+   "editor.formatOnSave": false
+  },
+  "editor.rulers": [90],
+  "editor.tabSize": 2,
+  "eslint.workingDirectories": [
+   {
+    "pattern": "./api"
+   },
+   {
+    "pattern": "./bo"
+   }
+  ],
+  "html.format.wrapLineLength": 90,
+  "liveServer.settings.port": 5501
+ }
