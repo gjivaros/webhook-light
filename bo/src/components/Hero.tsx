@@ -14,7 +14,7 @@ export default function Hero() {
     </div>
     <figure className="max-w-lg">
       <img className="h-auto max-w-full" src={heroImage} alt="image description"/>
-      <figcaption className="text-sm text-center text-gray-300">Image caption</figcaption>
+      <figcaption className="text-sm text-center text-gray-300"></figcaption>
     </figure>
   </div>
 }
