@@ -1,7 +1,7 @@
 import Menu from "./Menu";
 
 export default function Header() {
-  return <nav className="bg-white">
+  return <nav >
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
           <a href="#" className="flex items-center">
               <span className="self-center text-xl font-semibold whitespace-nowrap">WEBHOOK<svg className="h-20" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 19">

@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom'
 import heroImage from '../assets/Work_7.jpg'
 export default function Hero() {
   
@@ -9,7 +10,7 @@ export default function Hero() {
       <p className='mb-4'>Effortlessly test, monitor, and manage webhook integrations with our user-friendly platform.</p>
       <div className='flex gap-2'>
         <button type='button' className='text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none'>Sign Up for Free</button>
-        <button type="button" className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Quick start</button>
+        <Link to="/app" type="button" className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Quick start</Link>
       </div>
     </div>
     <figure className="max-w-lg">

@@ -1,18 +1,14 @@
-import Features from "./components/Features"
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import Hero from "./components/Hero"
-import HowItWork from "./components/HowItWork"
+
+import { Route, Routes } from 'react-router-dom'
+import Dashboard from './pages/Dashboard'
+import LandingPage from "./pages/LandingPage"
 
 function App() {
 
-  return <div>
-    <Header />
-    <Hero />
-    <Features />
-    <HowItWork />
-    <Footer/>
-  </div>
+  return <Routes>
+    <Route path="" element={<LandingPage/>} />
+    <Route path="/app" element={<Dashboard/>} />
+  </Routes>
 }
 
 export default App
